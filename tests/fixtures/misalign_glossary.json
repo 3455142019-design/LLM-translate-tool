@@ -1,0 +1,9 @@
+[
+  {
+    "source": "サン",
+    "target": "桑",
+    "priority": "high",
+    "scope": "global",
+    "notes": "错位检测测试用最小词表"
+  }
+]

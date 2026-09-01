@@ -59,8 +59,8 @@ class TestSeqAlignMtoolRules(unittest.TestCase):
 class TestCheckMisalign(unittest.TestCase):
     """错位检测规则回归测试。"""
 
-    GLOSSARY = str(Path(__file__).resolve().parent.parent
-                   / "projects" / "hollowwald" / "glossary.json")
+    GLOSSARY = str(Path(__file__).resolve().parent
+                   / "fixtures" / "misalign_glossary.json")
 
     def setUp(self):
         self.name_map = load_glossary(Path(self.GLOSSARY))
