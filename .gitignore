@@ -1,0 +1,19 @@
+# 本地 API key（config.load_dotenv 读取，防止误提交）
+.env
+
+# 运行产物
+runs/
+__pycache__/
+*.pyc
+
+# 汉化工程数据（游戏数据与项目包，绝不随工具上传）
+projects/
+archive/
+
+# 冒烟样例与游戏文档
+sample_smoke.json
+oc_doc.html
+
+# 游戏专用调试/运行脚本
+debug_*.py
+run_*.py
